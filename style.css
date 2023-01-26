@@ -1,0 +1,220 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: url(sources/bg-header.png) center 100%;
+    height: 350px;
+    text-align: center;
+}
+
+header > h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(68, 68, 68);
+    font-size: 150px;
+    padding-top: 50px;
+    text-shadow: 0 1px 0 #fff;
+}
+header > h1> em{
+    color: #f0e400;
+    font-style: normal;
+    font-weight: 700;
+}
+
+header > p{
+    color: #fff;
+    font-size: 30px;
+    text-shadow: 0 1px 0 #fff, 0 -1px 0 rgb(0, 0, 0 / 80%);
+}
+
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: url(sources/bg.jpg) center;
+}
+
+ h5{
+    color: red;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;  
+    padding: 8px;
+    margin: 5px;
+    text-align: center;
+    background: transparent;
+    background-color: rgba(255,255,255,.3)
+    
+}
+
+section > div > p{
+    color: rgb(87, 86, 86);
+    font-size: 15px;
+    font-family: "lemonde-courrier-1","lemonde-courrier-2","Helvetica","Arial",sans-serif;
+    text-shadow: 0 1px 0 #fff, 0 -1px 0 rgb(0, 0, 0 / 80%);
+    text-align: left;
+    margin-bottom: 30px ;
+    margin-top: 5px;
+    padding: 10px;
+}
+div.card{
+    width: 230px;
+    height: 200px;
+}
+section{
+    float: left;
+    text-align: center;
+    margin: 7px 10px;
+}
+
+a{
+    font-family: "lemonde-courrier-1","lemonde-courrier-2","Helvetica","Arial",sans-serif;
+    color: rgb(87,86,86);
+    text-decoration: none;
+    text-align: center;
+    background: transparent;
+    background-color: rgba(255,255,255,.3);
+    padding: 8px 20px;
+}
+
+article{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+p.version{
+    font-family: "lemonde-courrier-1","lemonde-courrier-2","Helvetica","Arial",sans-serif;
+    color: rgb(87,86,86);
+    font-size: 15px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+div.chrome{
+   background: url(sources/browsehappy-sprite.png) no-repeat ; 
+   width: 125px;
+   height: 135px;
+   margin: 20px auto;
+}
+
+div.firefox{
+    background: url(sources/browsehappy-sprite.png) no-repeat -125px 0; 
+    width: 125px;
+    height: 135px;
+    margin: 20px auto;
+}
+div.opera{
+    background: url(sources/browsehappy-sprite.png) no-repeat -250px 0; 
+    width: 125px;
+    height: 135px;
+    margin: 20px auto;
+}
+
+div.safari{
+    background: url(sources/browsehappy-sprite.png) no-repeat -375px 0; 
+    width: 125px;
+    height: 135px;
+    margin: 20px auto;
+}
+div.edge{
+    background: url(sources/browsehappy-sprite.png) no-repeat -625px 0; 
+    width: 125px;
+    height: 135px;
+    margin: 20px auto;
+}
+
+div.wrap{
+    position: relative;
+    zoom:1;
+    max-width: 1150px;
+    margin: 0 auto;
+    color: #fff;
+}
+footer{
+    padding: 80px;
+   color: #f1f1f1;
+   overflow: hidden; 
+   background: url(sources/bg-footer.png) repeat-x left top ;
+   margin-top: 25px;
+}
+
+section.about{
+    width: 60%;
+    float: left;
+    margin-left: 15px;
+    display: block;
+}
+section.about > h2{
+    font: 150% Impact, Helvetica, sans-serif;
+    padding-top: 8px;
+    margin-bottom: 10px;
+    color: #F0D200;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 #333;
+    text-align: left;
+    font-size: 20px;
+}
+
+section.about > p{
+    font-family: lemonde-courrier-1,  Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: #fff;
+    text-shadow: 0 1px 0 #333;
+    margin-bottom: 10px;
+    text-align: left;
+    text-align: justify;
+  text-justify: inter-word
+}
+
+section.share{
+    margin-left: 40px;
+}
+section.share > h2{
+    font: 150% Impact, Helvetica, sans-serif;
+    margin-bottom: 10px;
+    color: #F0D200;
+    text-transform: uppercase;
+    text-shadow: 0 1px 0 #333;
+    text-align: left;
+    font-size: 20px;
+}
+
+div.twitter{
+    background: url(sources/browsehappy-sprite.png) no-repeat -300px -135px; 
+    width: 32px;
+    height: 32px;
+    margin: 2px auto;
+    float: left;
+    display: block;
+    opacity: 0.4;
+    transition: all .5s;
+}
+div.fb{
+    background: url(sources/browsehappy-sprite.png) no-repeat -332px -135px; 
+    width: 32px;
+    height: 32px;
+    margin: 2px auto;
+    float: left;
+    display: block;
+    opacity: 0.4;
+    transition: all .5s;
+}
+
+div.twitter:hover{
+    opacity: 1;
+}
+div.fb:hover{
+    opacity: 1;
+}
+
+div.byline{
+    background: url(sources/browsehappy-sprite.png) no-repeat -332px -135px; 
+    margin: 2;
+}
+
+
+article > section:hover{
+    zoom: 1.1;
+    transition: all .5s;
+} 
